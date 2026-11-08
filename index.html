@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayush Mote — IT Engineering student and aspiring full-stack developer.">
+  <title>Ayush Mote | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">AM<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">IT ENGINEERING STUDENT · TCET</p>
+        <h1>Hi, I'm <span>Ayush Mote.</span></h1>
+        <h2>Aspiring Full-Stack Developer</h2>
+        <p class="intro">I enjoy building web applications and learning how technology can solve real-world problems. I am currently strengthening my development skills through hands-on projects.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore my work</a>
+          <a class="btn secondary" href="https://github.com/Ayushmote04" target="_blank" rel="noopener">GitHub profile ↗</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Portfolio introduction card">
+        <div class="avatar">AM</div>
+        <p class="card-label">CURRENT FOCUS</p>
+        <h3>Web Development</h3>
+        <p>Building practical projects, improving problem-solving, and growing as a developer.</p>
+        <div class="status"><span></span> Open to learning opportunities</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2 class="section-title">Turning ideas into useful projects.</h2>
+      <p class="section-text">I am an Information Technology engineering student at Thakur College of Engineering and Technology. I am interested in full-stack and web development, and I learn best by creating and improving real applications.</p>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2 class="section-title">Skills & technologies</h2>
+        <div class="skill-grid">
+          <div class="skill"><span>01</span><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript</p></div>
+          <div class="skill"><span>02</span><h3>Backend</h3><p>Node.js · Express.js</p></div>
+          <div class="skill"><span>03</span><h3>Databases</h3><p>MongoDB · PostgreSQL</p></div>
+          <div class="skill"><span>04</span><h3>Tools</h3><p>Git · GitHub · VS Code</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">PROJECT 01</span><span class="project-mark">LC</span></div>
+          <h3>LegalConnect</h3>
+          <p>A lawyer-client platform concept designed to help users discover legal support and communicate with lawyers.</p>
+          <div class="tags"><span>Full Stack</span><span>Spring Boot</span><span>PostgreSQL</span></div>
+          <p class="project-note">Academic project</p>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">PROJECT 02</span><span class="project-mark">WS</span></div>
+          <h3>Wander Stay</h3>
+          <p>An accommodation listing and booking web application inspired by travel-stay platforms.</p>
+          <div class="tags"><span>Node.js</span><span>Express.js</span><span>MongoDB</span></div>
+          <a class="project-link" href="https://github.com/Ayushmote04/Wander-Stay-Airbnb-Clone" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2 class="section-title">Have an opportunity or idea?</h2>
+          <p class="section-text">I would be glad to connect, learn, and collaborate.</p>
+        </div>
+        <a class="btn primary" href="https://github.com/Ayushmote04" target="_blank" rel="noopener">Connect on GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Ayush Mote</span>
+      <a href="https://github.com/Ayushmote04" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
